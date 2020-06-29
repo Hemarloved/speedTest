@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Word Check Timer</title>
+        <script src="scrpt.js" async></script>
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="header">
+            <h1>Test Your Typing Speed</h1>
+        </div>
+        <article class="next">
+            <p>This is a typing test. Your goal is to duplicate the provided text,
+                Exactly, in the feld below. The timer starts when you start typing and only stops
+                when you match this text exactly. Good Luck!
+            </p>
+        </article>
+        <main>
+            <div id="tab">
+                <p>The text to test</p>
+            </div>
+        
+            <div class="text-box">
+                <textarea id="test-area" name="textarea" rows="6" placeholder="The clock starts when you start typing."></textarea>
+            </div>
+            <div class="timer">
+                <div class="set">00:00:00</div>
+                <button id="starter">Start Over</button>
+            </div>
+        </main>
+    </body>
+
+</html>
